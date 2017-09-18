@@ -67,7 +67,7 @@ void app_main (void *argument) {
       AD_value = ADC_GetConversionValue(ADC1); //Read ADC value
       ADC_ClearFlag(ADC1, ADC_FLAG_EOC); //Clear EOC flag
 
-      printf("ADC value: %d \r\n", AD_value);
+      printf("ADC value, changed: %d \r\n", AD_value);
 
   }
 }
